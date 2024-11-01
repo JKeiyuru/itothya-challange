@@ -93,7 +93,7 @@ body {
     position: sticky;
     top: 0;
     left: 0;
-    position: relative;
+    position: relative sticky;
 }
 #menu-icon{
     font-size: 3.6rem;
@@ -105,7 +105,8 @@ body {
 #navbar{
     display: flex;
     align-items: center;
-    justify-content: center;  
+    justify-content: center; 
+   
 }
 #navbar ol{
     display: flex;
