@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Itothya LTD</title>
+    <!-- Option 1: Include in HTML -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <header id="header">
+    <img src="./Assets/SmallLogo.png" alt="Company Logo">
+
+    <i class="bi bi-list" id="menu-icon"></i>
+    <nav id="navbar">
+        <ol>
+            <li><a  href="index.html">Home</a></li>
+            <li><a class="active" href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ol>
+    </nav>
+   </header> 
+
+   <section id="about-us">
+    <div class="about-us">
+        <h1>ABOUT <span>US</span></h1>
+      <p>Welcome to Itothya General Agencies Ltd, a trusted name in debt recovery and financial services since 2005. As a medium-sized, indigenous company proudly owned and managed by Kenyans, we've developed into one of the country's most reliable debt recovery agencies. Our success stems from our unique approach: delivering positive results on time while maintaining a professional yet friendly approach with all stakeholders. We pride ourselves on our deep understanding of the local market, combined with innovative strategies that consistently deliver results. Incorporated under the companies act on June 20th, 2012, we've built our reputation on three fundamental principles: seeing far, aiming high, and staying focused. At Itothya, we don't just stand out from the rest - we set the standard for excellence in financial services.
+       </p>
+    </div>  
+    <div class="about-statements">
+        <h1>Corporate Statements</h1>
+        <h2 >Mission Statement:</h2>
+        <div class="statements">
+    
+           <p>"We are proud of our contribution to the development of our country's economy, as a result of scanning the financial flows of the corporate regime. We differ from our competitors by our friendly approach to the debtors who are temporarily unable to pay."</p>
+           <img class="arrow-img" src="./Assets/Arrow1.png" alt="Arrow"> 
+           <img class="statements-img" src="./Assets/mission.png" alt="Mission Image">
+           
+        </div>
+    </div>
+    
+    <div class="about-statements">
+        <h2>Vision:</h2>
+        <div class="statements">
+            <img class="statements-img" src="./Assets/vision.png" alt="Vision Image">
+            <img class="arrow-img" src="./Assets/Arrow2.png" alt="Arrow">
+            <p>"To be a leading service provider in debt collection and investigations servicing for all major corporate clients in the country."</p>
+        </div>
+    </div>
+    <div class="about-statements">
+        <h2>Our Core Values:</h2>
+        <div class="statements">
+            
+            <ol> 
+                <li>Excellence</li>
+                <li>Customer Focus</li>
+                <li>Innovation</li>
+            </ol>
+            
+            <img class="arrow-img" src="./Assets/Arrow4.png" alt="Arrow">
+            <img class="statements-img" src="./Assets/values.jpeg" alt="Vision Image">
+            
+        </div>
+    </div>
+    <hr>
+    
+    
+   </section>
+
+
+   <section id="services-details">
+    <h2>Our <span>Services</span></h2>
+
+    <div class="services-details-container">
+        <div class="services-details-box">
+            <img  src="./Assets/debt-collection1.jpeg" alt="">
+            <button class="white" id="toggleButton1" onclick="toggleContent(1)">Show More </button>
+            <div class="hidden" id="moreContent1">
+                <p><b>Debt Collection/Recovery</b></p>
+                <p>This is our main area of expertise. We undertake collection services on behalf of companies and organizations that have delinquent facilities held by both retail and corporate debtors whenever this is required.
+                    On this segment we employ a number of techniques including client meetings, issuance of letters of demand, telephone negotiations, and legal advice. Our retail collections are customized depending on the company customer profile.
+                    We make use of field collections teams backed by a call centre compliment so as to achieve high contact rates and hit excellent penetration levels for good results.
+
+                </p>
+                <p><b>Most ompanies classify their debts in the follwing categories:</b></p>
+                <p>a:The imposiible (Almost written off)
+                    b:The near impossible(May be)
+                    c:The possible(Current)
+                    These are our areas of specialization.
+                </p>
+            </div>
+        </div>
+        <div class="services-details-box">
+            <img  src="./Assets/skip-tracing1.jpeg" alt="">
+            <button class="white" id="toggleButton2" onclick="toggleContent(2)">Show More </button>
+            <div class="hidden" id="moreContent2">
+                <p><b>Investigation/Skip Tracing</b></p>
+                <p>Due to the diversity in our ubderlying client base and continuous experience in field based collections, we are able to easily carry out investigations to trace debtors whom you have lost contact with. This also includes serving legal and statutory notices.
+
+                </p>
+                
+            </div>
+        </div>
+        <div class="services-details-box">
+            <img  src="./Assets/process-server2.jpeg" alt="">
+            <button class="white" id="toggleButton3" onclick="toggleContent(3)">Show More </button>
+            <div class="hidden" id="moreContent3">
+                <p><b>Process Server</b></p>
+                <p>Our experience, processes and court serves provide a professional and time effective services of documents. Whether you have a one process serving requirement or you are looking for a reliable private investigation agency to manage your documents volume workloads, we would be happy to help. 
+
+                </p>
+                
+            </div>
+        </div>
+        <div class="services-details-box">
+            <img  src="./Assets/asset-search2.jpeg" alt="">
+            <button class="white" id="toggleButton4" onclick="toggleContent(4)">Show More </button>
+            <div class="hidden" id="moreContent4">
+                <p><b>Asset Searches</b></p>
+                <p>Our dedicated team of investigators are trained in asset serching, with the knowledge of various public information databases.
+
+                </p>
+               
+            </div>
+        </div>
+        <div class="services-details-box">
+            <img  src="./Assets/debt-survaillance2.jpg" alt="">
+            <button class="white" id="toggleButton5" onclick="toggleContent(5)">Show More </button>
+            <div class="hidden" id="moreContent5">
+                <p><b>Debt Surveillance</b></p>
+                <p>We undertake debt debt-survaillance and monitoring on debts that may have been written by companies. Upon confirmation of changes in the customers financial circumstances, we duly advise our clients. 
+                </p>
+            </div> 
+        </div>
+        <div class="services-details-box">
+            <img  src="./Assets/consultancy2.jpeg" alt="">
+            <button class="white" id="toggleButton6" onclick="toggleContent(6)">Show More </button>
+            <div class="hidden" id="moreContent6">
+                <p><b>Consultancy</b></p>
+                <p>We are consultants on the following areas: </p>
+                <p>1. Setting up credit policies and system strategies</p>
+                <p>2.Training on debt collection</p>
+                
+            </div>
+        </div>
+    </div>
+   </section>
+
+
+   <footer>
+    <div class="footer">
+        <div class="footer-logo">
+            <img src="./Assets/SmallLogo.png" alt="" />
+            <p>COMPANY LTD</p>
+        </div>
+        <ul class="footer-links">
+            <a href="index.html"><li>Home</li></a>
+            <a href="#"><li>About Us</li></a>
+            <a href="contact.html"><li>Contact Us</li></a>
+            
+        </ul>
+        <div class="footer-social-icons">
+            <div class="footer-icons-container">
+                <i class="bi bi-instagram"></i>
+            </div>
+            <div class="footer-icons-container">
+                <i class="bi bi-facebook"></i>
+            </div>
+            <div class="footer-icons-container">
+                <i class="bi bi-whatsapp"></i>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <hr />
+            <p>&copy; Copyright @2024 - All Rights Reserved</p>
+        </div>
+    </div>
+   </footer>
+
+<script src="script.js"></script>
+</body>
