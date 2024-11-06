@@ -6,9 +6,9 @@
   font-family: "Roboto Condensed", sans-serif;
 }
 :root{
-    --bg-color: #1f242d;
-    --second-bg-color: #2e2e2e;;
-    --text-color: #fff;
+    --bg-color: #F5F5F5;
+    --second-bg-color: #1a6fdd;;
+    --text-color: #e0c021;
     --main-color: #1a92dd;
     --second-main-color: #d1b00c;
 }
@@ -37,7 +37,7 @@ h6 {
 
 p {
   font-size: 19px;
-  color: #6e8bba;
+  color: var(--text-color);
   margin: 15px o 2opx o;
 }
 
@@ -53,7 +53,7 @@ button.normal {
   font-weight:600;
   padding:15px 30px;
   color:#000;
-  background-color:#fff;
+  background-color:var(--second-bg-color);
   border-radius: 4px;
   cursor: pointer;
   border: none;
@@ -64,7 +64,7 @@ button.white {
   font-size:13px;
   font-weight:600;
   padding:11px 18px;
-  color:#fff;
+  color: var(--text-color);
   background-color:transparent;
   cursor: pointer;
   border: 1px solid white;
@@ -159,7 +159,7 @@ body {
     margin-right: 20px;
     font-size: 25px;
     font-weight: 700;
-    color: #fff;
+    color: var(--text-color);
 }
 #description p span{
     font-size: 25px;
@@ -346,8 +346,8 @@ body {
     
 }
 .footer-icons-container:hover{
-    background: #1a1a1a;
-    color: #ff4141;
+    background: var(--second-bg-color);
+    color: var(--second-main-color);
 }
 .footer-copyright{
     display: flex;
@@ -552,7 +552,7 @@ body {
     padding: 1.5rem;
     font-size: 1.9rem;
     color: var(--text-color);
-    background: var(--second-bg-color);
+    background: var(--bg-color);
     border-radius: 2rem;
     margin: 0.7rem 0;
 }
@@ -604,7 +604,7 @@ body {
   #contact-details .details li i{
     font-size: 14px;
     padding-right: 22px;
-    color: var(--text-color);
+    color: var(--main-color);
   }
   #contact-details .details li p{
     color: var(--text-color);
